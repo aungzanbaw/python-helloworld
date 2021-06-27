@@ -3,3 +3,5 @@ applications:
  - name: PythonHelloWorldUdacity
    random-route: true
    memory: 128M
+   buildpacks:
+    - python_buildpack
