@@ -44,4 +44,4 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_REPOSITORY }}:latest
           # DOCKERHUB_REPOSITORY
-          # https://hub.docker.com/repository/docker/{username}/{repo}
+          # {username}/{repo}
